@@ -1,5 +1,5 @@
 
-                                                                           SIMPLE LINEAR REGRESSION AND MULTIPLE LINEAR REGRESSION
+ SIMPLE LINEAR REGRESSION AND MULTIPLE LINEAR REGRESSION
 
 1. **# Simple Linear Regression - Salary Prediction
 **
