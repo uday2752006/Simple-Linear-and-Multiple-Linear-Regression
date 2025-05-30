@@ -1,5 +1,8 @@
-# Simple Linear Regression - Salary Prediction
 
+                                                                           SIMPLE LINEAR REGRESSION AND MULTIPLE LINEAR REGRESSION
+
+1. **# Simple Linear Regression - Salary Prediction
+**
 This project demonstrates how to implement and evaluate a **Simple Linear Regression** model using Python and scikit-learn. It predicts salary based on years of experience.
 
 ##  Dataset
@@ -44,3 +47,62 @@ To model the linear relationship between experience and salary using a simple re
 
 - Scatter plot of `YearsExperience` vs `Salary`
 - Regression line overlay on test data
+
+
+
+
+
+2. **# Multiple Linear Regression - House Price Prediction**
+
+This project demonstrates how to implement a **Multiple Linear Regression** model to predict house prices using features such as total bedrooms, population, and total rooms.
+
+##  Dataset
+
+The dataset used (`housing.csv`) includes features like:
+
+- Total Rooms
+- Total Bedrooms
+- Population
+- Median House Value (target variable)
+
+##  Objective
+
+To predict the **median house value** using multiple input features and evaluate the accuracy of predictions.
+
+##  Steps Performed
+
+1. Load and inspect the dataset
+2. Handle missing values in training and test splits
+3. Visualize data relationships:
+   - Pairplot
+   - Correlation heatmap
+   - Scatter plots
+4. Split dataset into training and testing sets
+5. Train a multiple linear regression model
+6. Evaluate using:
+   - Mean Absolute Error (MAE)
+   - Mean Squared Error (MSE)
+   - R² Score
+7. Visualize relationships between input and output variables
+
+##  Libraries Used
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+##  Evaluation Metrics
+
+- **R² Score**: Model performance
+- **MAE**: Error magnitude
+- **MSE**: Squared error average
+
+##  Visualizations
+
+- Pairplot of numerical features
+- Heatmap of correlations
+- Scatter plots for feature vs target
+
+
